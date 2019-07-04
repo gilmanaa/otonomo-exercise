@@ -5,11 +5,12 @@ function Checkbox({ type, children, ...props }) {
   return (
     <label className="checkbox-label">
       <input
+        className="checkbox-hide"
         type="checkbox"
-        {...props}
         onClick={props.toggle}
         defaultChecked={props.dfcheck}
       />
+      <span className={props.checkstyle}></span>
       <span className="label">{children}</span>
     </label>
   )

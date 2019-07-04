@@ -5,9 +5,10 @@ import './Button.scss'
 export default function Button({ className, ...props }) {
   return (
     <button
-      {...props}
       className={cn(className, 'button')}
       onClick={props.add}
-    />
+    >
+      + Add
+    </button>
   )
 }

@@ -7,9 +7,9 @@ function Input({ className, ...props }) {
   return (
     <input
       type="text"
-      {...props}
       className={cn('input', className)}
       ref={props.vin}
+      placeholder= "VIN"
     />
   )
 }

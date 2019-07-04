@@ -11,7 +11,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -29,4 +29,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.vin-tracking {
+  display: inline-block;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.vin-wrapper {
+  text-align: left;
+}
+
+.input-feedback {
+  font-size: 8px;
+  text-align: left;
+}
+
+.filter-button{
+  background-color: rgb(0, 195, 232);
+  border-radius: 5px;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.event-tracking-container {
+  display: inline-block;
+}
+.event-tracking {
+  height: 90vh;
+  overflow-y: auto;
+}
+
+input[type=text] {
+  background-color: rgb(214, 230, 235);
+  border-bottom: 2px solid #3ba2ff;
+  border-radius: 5px 5px 0px 0px
+}
+.watchlist {
+  text-align: left;
 }
